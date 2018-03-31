@@ -23,4 +23,4 @@ bot.on('guildMemberRemove', member => {
 
 
 
-bot.login('NDI5NTg3MzEyOTc2OTg2MTE0.DaD0Kg.Q0J8dpTcLHM_Y2ScULO7AGFamoE');
+bot.login(process.env.TOKEN);
